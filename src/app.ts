@@ -11,7 +11,7 @@ const serverInstance = new Server({
 
 
 (async () => {
-    try { 
+    try {  
         await PostgresDatabase.connect({
             host: envs.HOST_DB,
             port: envs.PORT_DB,
